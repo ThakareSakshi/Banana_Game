@@ -18,7 +18,7 @@ const Thirdpage: FC = () => {
       <img src="back-btn.png" className='back-btn' onClick={openPreviousPage} />
 
       <div className='message-wrapper'>
-        <p className='message'>Can you help me to get <br /> some ? </p>
+        <p className='message'>Can you help me to get <br /> some ? 🤔 </p>
       </div>
       <img src='monkey.png' alt="monkey-image" className='monkey-image' />
 

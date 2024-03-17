@@ -17,7 +17,7 @@ const Secondpage: FC = () => {
     <div>
       <img src="back-btn.png" className='back-btn' onClick={openPreviousPage}/>
       <div className='message-wrapper'>
-        <p className='message'>Hi, I am Mizo ! <br/> and I Love bananas </p>
+        <p className='message'>Hi, I am Mizo ! <br/> and I Love bananas 🍌 </p>
       </div>
       <img src='monkey.png' alt="monkey-image" className='monkey-image'/>
       <img src='next-btn.png' className='next-btn' onClick={openNextPage}/>
