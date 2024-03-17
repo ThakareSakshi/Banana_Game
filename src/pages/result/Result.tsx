@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import  { useContext } from "react";
 
 import { cardContext } from "../../context/GameContext";
 import './result.css'

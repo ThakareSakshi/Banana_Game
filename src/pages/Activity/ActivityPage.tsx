@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import  { useContext, useEffect, useState } from 'react';
 import Card from '../../components/Cards.tsx';
 import BlueCard from '../../components/BlueCards.tsx';
 import fruitData from '../../data/fruitData.json';

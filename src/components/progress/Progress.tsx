@@ -1,4 +1,4 @@
-import React, { FC, useContext } from 'react';
+import { FC, useContext } from 'react';
 import { cardContext } from '../../context/GameContext';
 import './progress.css';
 

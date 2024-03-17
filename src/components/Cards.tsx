@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import "../pages/Activity/activity.css";
 import { cardContext } from "../context/GameContext"; // Assuming you have exported CardContextData interface from GameContext
 

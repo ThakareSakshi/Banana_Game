@@ -1,4 +1,4 @@
-import React, { useEffect, useState, FC } from 'react';
+import { useEffect, useState, FC } from 'react';
 import "../pages/Activity/activity.css";
 import { useContext } from 'react';
 import { cardContext, CardContextData } from '../context/GameContext'; // Import CardContextData interface

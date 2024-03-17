@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 
 import Progress from '../../components/progress/Progress';
 import "./instruction.css";

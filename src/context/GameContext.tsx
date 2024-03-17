@@ -1,4 +1,4 @@
-import React, { createContext, FC, useState } from "react";
+import  { createContext, FC, useState } from "react";
 
 export interface CardContextData {
   pinkCardsEnabled: boolean;
@@ -12,7 +12,7 @@ export interface CardContextData {
   setSelectedBlueCard: (card: string) => void;
   setSelectedPinkCard: (card: string) => void;
   lives: number;
-  setlives: (lives: number) => number;
+  setlives: (lives: number) => void;
 }
 
 export const cardContext = createContext<CardContextData>({} as CardContextData);

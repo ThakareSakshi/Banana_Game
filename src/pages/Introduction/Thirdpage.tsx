@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import "./introduction.css"
 import Progress from '../../components/progress/Progress';
 import { useNavigate } from "react-router-dom";
