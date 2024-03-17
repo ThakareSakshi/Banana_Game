@@ -4,44 +4,46 @@ Welcome to the Banana Game, a React and TypeScript-based project developed for t
 
 hosted link:https://banana-game-seven.vercel.app/
 
-## Tech Stack 
-- React: JavaScript library for building user interfaces.
-- TypeScript: Typed superset of JavaScript that compiles to plain JavaScript.
+## Getting Started
+
+To run the Banana Game locally on your machine, follow these steps:
+
+1. **Clone the Repository**: 
+    ```bash
+    git clone https://github.com/your-username/banana-game.git
+    ```
+
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd banana-game
+    ```
+
+3. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+4. **Run the Development Server**:
+    ```bash
+    npm start
+    ```
+
+5. **Open the Game in Your Browser**:
+   Once the development server is running, open your browser and navigate to `http://localhost:3000/` to play the game.
+
 
 ## How to Play
 
 - Click on a pink card to reveal its content.
 - Next, click on a blue card to reveal its content.
 - If the content of the two cards matches, you earn a banana!
-- Keep playing to earn more bananas. 
+- Keep playing to earn more bananas.
 
-## React + TypeScript + Vite
+  
+## Tech Stack 
+- React: JavaScript library for building user interfaces.
+- TypeScript: Typed superset of JavaScript that compiles to plain JavaScript.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This README file gives a brief overview of the Banana Game project, instructions on how to get started, how to play the game and the technologies used.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
