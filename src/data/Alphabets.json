@@ -1,0 +1,40 @@
+[{
+    "id":11,
+    "Ukey":"apple",
+    "frontImage":"/blueCard.png",
+    "alphabet":"A"
+ 
+},
+{
+    "id":12,
+    "Ukey":"Strawberry",
+    "frontImage":"/blueCard.png",
+    "alphabet":"S"
+ 
+}
+, {
+    "id":13,
+    "Ukey":"pineapple",
+    "frontImage":"/blueCard.png",
+    "alphabet":"P"
+ 
+},
+{
+    "id":14,
+    "Ukey":"orange",
+    "frontImage":"/blueCard.png",
+    "alphabet":"O"
+ 
+}, {
+    "id":15,
+    "Ukey":"banana",
+    "frontImage":"/blueCard.png",
+    "alphabet":"B"
+ 
+}, {
+    "id":16,
+    "Ukey":"mango",
+    "frontImage":"/blueCard.png",
+    "alphabet":"M"
+ 
+}]

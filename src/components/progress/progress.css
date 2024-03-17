@@ -1,0 +1,35 @@
+.progress{
+    height:24px;
+    width:50%;
+    background-color: rgb(229, 226, 226);
+    position: relative;
+    
+    border-radius: 12px;
+    
+
+}
+
+.progress-bar{
+    height:100%;
+    border-radius: 12px;
+   
+    background-image: repeating-linear-gradient(45deg ,yellow,gold 20px, yellow 20px, gold 40px);
+    animation: progress-stripes 2s linear infinite ;
+}
+
+.progress img{
+ position: absolute;
+ top:-20px;
+ right:-42px;
+ height:84px;
+}
+
+
+@keyframes progress-stripes {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50px 0; 
+    }
+}

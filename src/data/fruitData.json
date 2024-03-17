@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "Ukey":"apple",
+        "backImage":"/apple.png",
+        "frontImage":"/pinkCard.png"
+     
+    },
+    {
+        "id":2,
+        "Ukey":"Strawberry",
+        "backImage":"/strawberry.png",
+        "frontImage":"/pinkCard.png"
+     
+    }
+    , {
+        "id":3,
+        "Ukey":"pineapple",
+        "backImage":"/pineapple.png",
+        "frontImage":"/pinkCard.png"
+     
+    },
+    {
+        "id":4,
+        "Ukey":"orange",
+        "backImage":"/orange.png",
+        "frontImage":"/pinkCard.png"
+     
+    }, {
+        "id":5,
+        "Ukey":"banana",
+        "backImage":"/yellow-banana.png",
+        "frontImage":"/pinkCard.png"
+     
+    }, {
+        "id":6,
+        "Ukey":"mango",
+        "backImage":"/mango.png",
+        "frontImage":"/pinkCard.png"
+     
+    }
+]
