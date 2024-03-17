@@ -1,11 +1,19 @@
 # Banana Game
+
+Welcome to the Banana Game, a React and TypeScript-based project developed for the company assignment. This game involves two types of cards: pink cards and blue cards. Players need to click on a pink card first and then on a blue card. If the cards match, the player earns a banana!
+
 hosted link:https://banana-game-seven.vercel.app/
 
 ## Tech Stack 
- - React
- - Typescript
- - css
-   
+- React: JavaScript library for building user interfaces.
+- TypeScript: Typed superset of JavaScript that compiles to plain JavaScript.
+
+## How to Play
+
+- Click on a pink card to reveal its content.
+- Next, click on a blue card to reveal its content.
+- If the content of the two cards matches, you earn a banana!
+- Keep playing to earn more bananas. 
 
 ## React + TypeScript + Vite
 
