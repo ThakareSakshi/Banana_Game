@@ -32,6 +32,8 @@ const BlueCards: FC<BlueCardProps> = (props) => {
     
       if(props.Ukey == cardsCtx.selectedPinkCard){
         console.log("itsm match");
+        let sound=new Audio("bonus.wav");
+        sound.play();
         const newProgress=cardsCtx.progress+17;
         cardsCtx.setprogress(newProgress);
         setTimeout(() => {
