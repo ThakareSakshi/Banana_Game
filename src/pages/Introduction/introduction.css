@@ -1,5 +1,5 @@
 .message-wrapper{
-    background-image: url("public/msg-container.png");
+    background-image: url("/public/msg-container.png");
     position: relative;
     height:12rem;
     background-position: center;
