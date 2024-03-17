@@ -1,4 +1,13 @@
-# React + TypeScript + Vite
+# Banana Game
+hosted link:https://banana-game-seven.vercel.app/
+
+## Tech Stack 
+ - React
+ - Typescript
+ - css
+   
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
